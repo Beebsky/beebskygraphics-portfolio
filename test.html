@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beebskygraphics Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* fallback colors if main css fails */
+    body {
+      background: linear-gradient(135deg, #00122e, #002b5b);
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 90vh;
+      text-align: center;
+      padding: 2rem;
+    }
+    .hero img {
+      width: 200px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 3px solid #00b4ff;
+    }
+    .hero h1 {font-size: 2rem; margin-bottom: 0.5rem;}
+    .hero p {max-width: 500px; margin: auto; color: #aee4ff;}
+    .projects {padding: 2rem; text-align: center;}
+    .gallery img {width: 180px; margin: 5px; border-radius: 10px;}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Beebskygraphics</div>
+  </header>
+
+  <section class="hero">
+    <img src="images/beebsky-hero.png" alt="Beebsky portrait">
+    <h1>Hi, I'm <span style="color:#00b4ff;">Ayansola Abeeb</span></h1>
+    <p>Graphics & Brand Identity Designer turning ideas into visuals that connect brands to people.</p>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <h3>30 Days Design Campaign</h3>
+    <div class="gallery">
+      <img src="images/day1.jpg" alt="">
+      <img src="images/day2.jpg" alt="">
+      <img src="images/day3.jpg" alt="">
+    </div>
+  </section>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>WhatsApp: <a href="https://wa.me/2347012305505">+2347012305505</a></p>
+  </footer>
+</body>
+</html>
